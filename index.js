@@ -29,9 +29,9 @@ function draw()
     fill(c);
     noStroke();
     rect(x[j], y[j], 20, 15);
-    if (x[j] < 1080)
+    if (x[j] < canX)
       x[j]+=v[j];
     else
-      x[j] = 1080;
+      x[j] = canX;
   }
 }
